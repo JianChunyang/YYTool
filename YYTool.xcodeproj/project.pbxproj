@@ -12,8 +12,7 @@
 		340627171F21EC8300D47E23 /* YYTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 340627091F21EC8300D47E23 /* YYTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		340627241F21ED0000D47E23 /* Converter.h in Headers */ = {isa = PBXBuildFile; fileRef = 340627201F21ED0000D47E23 /* Converter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		340627251F21ED0000D47E23 /* Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = 340627211F21ED0000D47E23 /* Converter.m */; };
-		340627261F21ED0000D47E23 /* RSACrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 340627221F21ED0000D47E23 /* RSACrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		340627271F21ED0000D47E23 /* RSACrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 340627231F21ED0000D47E23 /* RSACrypto.m */; };
+		340627291F21EEA700D47E23 /* YYTool.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 340627281F21EEA700D47E23 /* YYTool.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +34,7 @@
 		340627161F21EC8300D47E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		340627201F21ED0000D47E23 /* Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Converter.h; sourceTree = "<group>"; };
 		340627211F21ED0000D47E23 /* Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Converter.m; sourceTree = "<group>"; };
-		340627221F21ED0000D47E23 /* RSACrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSACrypto.h; sourceTree = "<group>"; };
-		340627231F21ED0000D47E23 /* RSACrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSACrypto.m; sourceTree = "<group>"; };
+		340627281F21EEA700D47E23 /* YYTool.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YYTool.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +59,7 @@
 		340626FC1F21EC8300D47E23 = {
 			isa = PBXGroup;
 			children = (
+				340627281F21EEA700D47E23 /* YYTool.podspec */,
 				340627081F21EC8300D47E23 /* YYTool */,
 				340627131F21EC8300D47E23 /* YYToolTests */,
 				340627071F21EC8300D47E23 /* Products */,
@@ -81,8 +80,6 @@
 			children = (
 				340627201F21ED0000D47E23 /* Converter.h */,
 				340627211F21ED0000D47E23 /* Converter.m */,
-				340627221F21ED0000D47E23 /* RSACrypto.h */,
-				340627231F21ED0000D47E23 /* RSACrypto.m */,
 				340627091F21EC8300D47E23 /* YYTool.h */,
 				3406270A1F21EC8300D47E23 /* Info.plist */,
 			);
@@ -106,7 +103,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				340627241F21ED0000D47E23 /* Converter.h in Headers */,
-				340627261F21ED0000D47E23 /* RSACrypto.h in Headers */,
 				340627171F21EC8300D47E23 /* YYTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				340627291F21EEA700D47E23 /* YYTool.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +207,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				340627251F21ED0000D47E23 /* Converter.m in Sources */,
-				340627271F21ED0000D47E23 /* RSACrypto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

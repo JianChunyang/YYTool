@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RSACrypto.h"
 #import "Converter.h"
 
 //! Project version number for YYTool.
